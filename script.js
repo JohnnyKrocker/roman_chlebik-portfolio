@@ -23,7 +23,7 @@ controls.dampingFactor = 0.05;
 // Ładowanie modelu
 const loader = new THREE.GLTFLoader();
 loader.load(
-    'touch-grass.glb',
+    'basketball.glb',
     (gltf) => {
         const model = gltf.scene;
         model.position.set(0, 0, 0); // Wymuś pozycję (0,0,0)
